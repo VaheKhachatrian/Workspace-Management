@@ -27,7 +27,6 @@ Ensure you have the following installed on your machine:
 1. #### Clone the repository:
    ```bash
    git clone https://github.com/VaheKhachatrian/Workspace-Management.git
-   cd project-root
 2. #### Backend Setup:
    ```bash
    cd server
