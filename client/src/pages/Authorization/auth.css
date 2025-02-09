@@ -1,0 +1,92 @@
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 30px;
+  height: 100vh;
+}
+
+.auth-tabs {
+  display: flex;
+  justify-content: space-between;
+  background: #f3f3f3;
+  border-radius: 8px;
+  padding: 5px;
+  width: 100%;
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tab-btn.active {
+  background: linear-gradient(to right, 	#40E0D0, #4682B4);
+  color: white;
+  border-radius: 8px;
+}
+
+.auth-form {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 0px;
+}
+
+.login-error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: linear-gradient(to right, 	#40E0D0, #4682B4);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+  opacity: 0.9;
+}
+
+.forgot-password {
+  color: #ff416c;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  margin-top: 10px;
+}
+
+.auth-footer {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.auth-footer a {
+  color: #ff416c;
+  text-decoration: none;
+}
