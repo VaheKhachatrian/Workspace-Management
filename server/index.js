@@ -17,8 +17,8 @@ app.use(cookieParser());
 
 
 // const corsOptions = {
-//   origin: "*", // Your frontend URL
-//   credentials: true, // Ensure that cookies are allowed to be sent/received
+//   origin: "*",
+//   credentials: true,
 //   allowedHeaders: ["Content-Type", "Authorization"]
 // };
 

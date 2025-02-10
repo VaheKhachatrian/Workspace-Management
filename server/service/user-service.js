@@ -53,9 +53,6 @@ class UserService {
   }
 
   async logout(refreshToken) {
-    // if (!refreshToken) {
-    //   throw new Error("No refresh token provided");
-    // }
     await tokenService.removeToken(refreshToken);
   }
 
